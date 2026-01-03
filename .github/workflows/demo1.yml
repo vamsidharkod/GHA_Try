@@ -5,4 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World Vamsi!"
+        run: echo "Hello World!"
+
+
+name: hello-Vamsi
+'on': push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello Vamsi!"
