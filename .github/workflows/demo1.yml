@@ -11,7 +11,7 @@ jobs:
 name: hello-Vamsi
 'on': push
 jobs:
-  my-job:
+  my-vjob:
     runs-on: ubuntu-latest
     steps:
       - name: my-stepvamsi
