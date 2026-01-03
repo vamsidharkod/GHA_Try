@@ -1,0 +1,8 @@
+name: hello-Vamsi
+'on': push
+jobs:
+  my-vjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-stepvamsi
+        run: echo "Hello Vamsi!"

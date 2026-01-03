@@ -6,13 +6,3 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-
-
-name: hello-Vamsi
-'on': push
-jobs:
-  my-vjob:
-    runs-on: ubuntu-latest
-    steps:
-      - name: my-stepvamsi
-        run: echo "Hello Vamsi!"
